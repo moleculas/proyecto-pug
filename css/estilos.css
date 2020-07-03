@@ -1,0 +1,90 @@
+h1,h2,h3,h4,h5,h6,figure,ul,p{
+	margin: 0;
+}
+body{
+	background-color: #dedede;
+	 font-family:Lucida Console;
+}
+.header{
+	width: 100%;
+}
+.header .nav{
+	background-color: #2980b9;
+	padding: 10px 0;
+
+}
+.header .nav .miUl{
+	width: 900px;
+	margin:0 auto;
+	padding: 10px;
+
+
+}
+.nav .miUl .list{
+	display: inline;
+	color: white;
+	font-size: 22px;
+	padding: 12px 12px;
+}
+.nav .miUl .list a{
+	text-decoration: none;
+	color: white;
+}
+.nav .miUl .list a:hover{
+	color: black;
+}
+.nav .miUl .list:hover{
+	background-color: #dedede;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+}
+.nav .miUl .select{
+	background-color: black;
+	border-radius: 5px;
+}
+.miProfile{
+	background-image: url(../img/city.png);
+	background-size: cover;
+	background-position: center;
+}
+.miProfile .figure{
+	text-align: center;
+	padding: 25px;
+
+}
+.miProfile .figure .miAvatar{
+	border-radius: 50%;
+	border: 10px solid #2980b9;
+	width: 250px;
+}
+main{
+	width: 100%;
+	background-color: white;
+
+}
+main .sections{
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+main .sections .miHeader{
+	background-color: #c0392b;
+	margin-bottom: 10px;
+}
+.sections .miHeader h2{
+	color: white;
+	padding: 10px 5px;
+}
+.sections .misHabilidadesCont{
+	overflow: hidden;
+}
+.sections .misHabilidadesCont .ulIz, .ulDe{
+	width: 250px;
+}
+.sections .misHabilidadesCont .ulIz{
+	float: left;
+}
+.sections .misHabilidadesCont .ulIz{
+	float: right;
+}
